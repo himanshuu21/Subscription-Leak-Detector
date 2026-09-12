@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+!frontend/dist/
+!frontend/dist/**
+frontend/node_modules/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables — NEVER commit your real .env
+.env
+
+# SQLite local dev database
+*.db
+*.sqlite3
+
+# Alembic generated files (keep versions/ but ignore pyc inside)
+alembic/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Generated CSVs and data files
+*.csv
+data/generator/ground_truth.json

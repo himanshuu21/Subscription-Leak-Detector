@@ -1,0 +1,30 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.52
+alembic==1.13.1
+# psycopg2-binary is the Postgres driver — only needed in Docker/production.
+# For local dev with SQLite, you can skip this (pip install will fail on Windows
+# without PostgreSQL client libs installed). The Dockerfile installs it correctly.
+psycopg2-binary==2.9.12
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+authlib==1.6.5
+itsdangerous==2.2.0
+
+# Detection algorithm
+rapidfuzz==3.9.3
+
+# Config
+python-dotenv==1.0.1
+pydantic-settings==2.2.1
+
+# Testing
+pytest==8.2.0
+pytest-cov==5.0.0
+httpx==0.27.0           # async test client for FastAPI

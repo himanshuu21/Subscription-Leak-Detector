@@ -1,0 +1,34 @@
+[
+  {
+    "merchant": "NETFLIX",
+    "charges_count": 11
+  },
+  {
+    "merchant": "SPOTIFY",
+    "charges_count": 12
+  },
+  {
+    "merchant": "AMAZON PRIME",
+    "charges_count": 11
+  },
+  {
+    "merchant": "ICLOUD",
+    "charges_count": 11
+  },
+  {
+    "merchant": "YOUTUBE PREMIUM",
+    "charges_count": 11
+  },
+  {
+    "merchant": "DROPBOX",
+    "charges_count": 1
+  },
+  {
+    "merchant": "LINKEDIN",
+    "charges_count": 11
+  },
+  {
+    "merchant": "HOTSTAR",
+    "charges_count": 1
+  }
+]
